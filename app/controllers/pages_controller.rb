@@ -3,8 +3,8 @@ class PagesController < ApplicationController
   	@variable = 4
   end
 
-  def home
-  	@variable = 4
+  def profil
+  	@user = 'adam'
   end
 
 end

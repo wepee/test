@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Wepe's App</title>
+    <title>Adam ALEB</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= link_to 'Home', 'home' %>
+    <%= link_to 'Mon profil', 'profil' %>
+    <%= render 'pages/header' %>
   </head>
 
   <body>
-    <%= yield %>
+    <DIV class='container'>
+      <%= yield %>  
+    </DIV>
+    
   </body>
 </html>
