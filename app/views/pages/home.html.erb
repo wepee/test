@@ -1,6 +1,10 @@
-<h1>Bienvenue !</h1>
-<!-- <p>Ceci est ma première variable : <%= @variable %>.</p> -->
-<p> Ceci est la page d'accueil</p>
-<% @variable.times do |i| %>
-  <p> <%= i %> </p>
-<% end %>
+<div class="jumbotron">
+  <h1 class="display-4">Bonjour et bienvenue sur Mon CV en ligne</h1>
+  <p class="lead"> Si vous êtes ici c'est que vous voulez en savoir plus sur moi.</p>
+    <p class="lead"> Vous êtes au bon endroit.</p>
+  <hr class="my-4">
+  <p>Pour nous soumettre un projet, c'est ici :</p>
+  <a class="btn btn-primary btn-lg" href="#" role="button">En savoir plus</a>
+</div>
+
+<%= render 'timeline' %>

@@ -1,10 +1,20 @@
 class PagesController < ApplicationController
   def home
-  	@variable = 4
   end
 
   def profil
-  	@user = 'adam'
+  end
+
+  def parcours
+  end
+
+  def competences
+  end
+
+  def projets
+  end
+
+  def contact
   end
 
 end
