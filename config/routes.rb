@@ -1,7 +1,6 @@
 Rails.application.routes.draw do
   get 'pages/profil'
   get 'home' => 'pages#home'
-  get 'parcours' => 'pages#parcours'
   get 'competences' => 'pages#competences'
   get 'projets' => 'pages#projets'
   get 'contact' => 'pages#contact'

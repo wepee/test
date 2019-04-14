@@ -5,8 +5,6 @@ class PagesController < ApplicationController
   def profil
   end
 
-  def parcours
-  end
 
   def competences
   end
